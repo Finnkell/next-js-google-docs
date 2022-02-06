@@ -1,5 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import MyDocuments from '../components/MyDocuments';
+import NewDocument from '../components/NewDocument';
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       </Head>
 
       <Header />
+      <NewDocument />
+      <MyDocuments />
 
     </div>
   );
